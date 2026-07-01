@@ -59,7 +59,7 @@ function SmoothScroll() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/SecoStarr-PortoWEB">
       <SmoothScroll />
       <CustomCursor />
       <ScrollToTop />
