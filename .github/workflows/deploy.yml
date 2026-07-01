@@ -3,7 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Atur ke branch utama Anda (bisa 'main' atau 'master')
+      - main
+  workflow_dispatch: # Memungkinkan Anda menjalankan ini secara manual
 
 jobs:
   build:
